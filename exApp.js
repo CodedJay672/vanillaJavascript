@@ -9,6 +9,7 @@ async function fetchData() {
       throw new Error("something horrible happened");
     }
     const data = await response.json();
+    console.log('request finished with status' + response.status)
     console.log(data);
   } catch (error) {
       console.log(error);
@@ -18,3 +19,4 @@ async function fetchData() {
 console.log('started fetching data');
 fetchData();
 console.log('finished fetching data');
+
