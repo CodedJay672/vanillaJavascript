@@ -1,0 +1,13 @@
+{
+  "name": "vanillajavascript",
+  "version": "1.0.0",
+  "description": "This repo contains modules written with vanilla javascript. Fontend designs and portfolio projects are also found in this repository. For codes writtne in ReactJS and other javascript libraries, please go to the appropriate location.",
+  "main": "exApp.js",
+  "scripts": {
+    "start": "node exApp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
