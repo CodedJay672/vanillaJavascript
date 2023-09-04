@@ -8,8 +8,22 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
-      }
-    ]
+      },
+      {
+        test: /\.html$/i,
+        use: ['html-loader']
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpg|svg)$/,
+        use: {
+          loader: 'url-loader'
+        }
+      },
+    ],
   },
   resolve: {
     extensions: ['.*', '.js', '.jsx']
@@ -20,5 +34,7 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, '../dist'),
+    hot: true,
+    open: true,
   }
 };

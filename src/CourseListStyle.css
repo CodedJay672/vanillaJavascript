@@ -1,0 +1,10 @@
+.notCompleted {
+  font-weight: bold;
+  color: rgba(255, 38, 0.5);
+  cursor: pointer;
+}
+
+.completed {
+  font-weight: normal;
+  color: grey;
+}

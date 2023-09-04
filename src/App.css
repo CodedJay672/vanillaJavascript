@@ -1,0 +1,25 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
+}
+
+.body {
+  font-size: 1.3em;
+  width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.footer {
+  background-color: gray;
+  color: white;
+  height: 10vh;
+}
+
+.footer p {
+  text-align: center;
+}
