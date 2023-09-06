@@ -1,6 +1,10 @@
 import React from "react";
 import './CourseListStyle.css';
 
+
+// thsi component then receives the courses and creates individual divs for
+// each user entry. every single course entered by the user will have its 
+// own attributes as well as properties. 
 export default function CourseListRow({ courses, toggleClick }) {
   return (
     <>

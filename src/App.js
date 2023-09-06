@@ -5,6 +5,13 @@ import AddCourse from './AddCourse';
 import './App.css';
 
 
+// this is the entry file for the project
+// this is the index file which houses all other
+// component files. it brings all the components
+// together and defines functions and stateful variables whcih
+// allow the individual components to share and receive data.
+// as well as functions which allow for independent  updats of
+// the stateful variables from the different components
 const testData = [
 ]
 
